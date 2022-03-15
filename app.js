@@ -17,7 +17,7 @@ function text() {
                     letras.push(item);
                 }
             });
-            if (letras.length < 10) {
+            if (letras.length < 15) {
                 alert("El texto ingresado contiene menos de 15 caracteres");
                 textarea.value = "";
             }else if(numeros.length < 5){
